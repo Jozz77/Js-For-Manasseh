@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+.icons {
+    padding: 5%;
+    display: flex;
+    gap: 1rem;
+}
+.icons i {
+    color: green;
+    font-size: 1.5rem;
+}

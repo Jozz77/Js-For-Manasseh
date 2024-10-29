@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: blue;
+    color: white;
+}
+a {
+    color: white;
+}
+header {
+    /* background-color: brown; */
+}
+header a {
+    /* color: red; */
+    font-size: 1.2rem;
+}
+.second-section {
+    color: yellow;
+}
+.second-section .one {
+    font-weight: 700;
+    font-size: 2rem;
+    font-style: normal;
+    color: aqua;
+    
+}
+.second-section .two {
+    font-weight: 200;
+}
