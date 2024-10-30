@@ -11,7 +11,7 @@ persons.push("Chidimma")
 persons.shift() 
 
 // unshift method which to add a new value at the beginning of the array
-persons.unshift("John")
+persons.unshift("John   ")
 
 console.log(persons)
 // console.log(persons[1])
