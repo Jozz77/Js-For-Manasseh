@@ -7,6 +7,7 @@ const manassehLaptop = {
     ram: "8gb",
     yearsofUsage: 1,
     isNice: false,
+    newArray: ["new", "done", 1, true],
     sayHello: function() {
         console.log("Manasseh Laptop says Hello!");
     },
@@ -19,8 +20,13 @@ delete manassehLaptop.windows // delete a property
 
 // const laptopColor = manassehLaptop.color
 
-console.log(manassehLaptop.color)
-console.log(manassehLaptop.sayHello())
-console.log(manassehLaptop.allPreviousOwners[0])
-// console.log(manassehLaptop.windows)
-// console.log(manassehLaptop["ram"])
+// console.log(manassehLaptop)
+
+// convert from js object to json format
+const manassehLaptopJson = JSON.stringify(manassehLaptop)
+
+// convert from json to javascript object
+const manassehLaptopOjbect = JSON.parse(manassehLaptopJson)
+
+console.log(manassehLaptopJson)
+console.log(manassehLaptopOjbect)

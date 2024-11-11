@@ -1,0 +1,9 @@
+{
+  "color": "red",
+  "ram": "8gb",
+  "yearsofUsage": 1,
+  "isNice": false,
+  "newArray": ["new", "done", 1, true],
+  "allPreviousOwners": ["John", "Peter", "Ezekiel"],
+  "rom": "120gb"
+}
