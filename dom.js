@@ -21,7 +21,7 @@ p2.innerHTML = " This is a new p2 I created"
 mainBody.appendChild(p)
 mainBody.appendChild(p2)
 
-// change the color of the p contents
+// change the css styles of the elements
 p.style.color = "yellow"
 p2.style.color = "blue"
 mainBody.style.backgroundColor = 'black'
