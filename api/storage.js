@@ -12,3 +12,5 @@ localStorage.getItem("house")
 // using session storage
 sessionStorage.setItem("age", 12);
 sessionStorage.setItem("name", "Manasseh");
+
+function es5Function()
